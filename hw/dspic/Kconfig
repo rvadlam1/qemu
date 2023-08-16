@@ -1,0 +1,6 @@
+config DSPICEXP_MCU
+    bool
+
+config DSPICEXAMPLE_BOARD
+    bool
+    select DSPICEXP_MCU
